@@ -21,6 +21,8 @@ Patent data used by the code is available at http://dx.doi.org/10.17632/f4fj887y
 <li>csv</li>
 </ul>
 </li>
+</ul>
+</li>
 <li>Notebook: Compute Normalized Knowledge Obsolescence Index at patent and domain levels
 <ul>
 <li>What it does: it computes a normalized index of knowledge obsolescence based on the age profile of citations made by patents belonging to each of the 30 domains. The normalization procedure is explained in the <a href="https://www.sciencedirect.com/science/article/pii/S0040162520309264#ecom0001">paper</a>.</li>
@@ -35,6 +37,8 @@ Patent data used by the code is available at http://dx.doi.org/10.17632/f4fj887y
 <ul>
 <li>csv</li>
 <li>csv</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>Notebook: Monte Carlo Cross Validation (with paper figures)
@@ -56,6 +60,8 @@ Patent data used by the code is available at http://dx.doi.org/10.17632/f4fj887y
 <li>Figure 3 and S6 from the <a href="https://www.sciencedirect.com/science/article/pii/S0040162520309264#ecom0001">paper</a>.</li>
 </ul>
 </li>
+</ul>
+</li>
 <li>Notebook: Estimate TIR for new domains
 <ul>
 <li>What it does: It runs a regression that uses the best possible predictor identified by the Monte Carlo cross validation exercise to estimate TIRs for the 30 domains based on that predictor only. It then used the estimated coefficients of the regression and the values of the predictor for estimating TIR of 5 out-of-sample domains related to Bio-electronic Medicine for which we only have patent data (no available observation of the empirical TIR). This notebook can be used to estimate the yearly performance improvement rate for any new technology domain. You only need a list of US patent numbers for the new domain. If you input a patent dataset that has more than one domain it will also compute the likelihood that one is faster than the other(s).</li>
@@ -73,12 +79,6 @@ Patent data used by the code is available at http://dx.doi.org/10.17632/f4fj887y
 <li>xlsx</li>
 <li>Figure &ldquo;density_estimated_rate_new_domains&rdquo; in PDF and TIFF formats</li>
 <li>Figure &ldquo;likelihood_domain_faster_than_other_domain&rdquo; in PDF and TIFF formats</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 </li>
 </ul>
