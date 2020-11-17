@@ -1,7 +1,7 @@
 # TechnologyPerformanceImprovementEstimates
 This repository contains the code used in the paper "Estimating Technology Performance Improvement Rates by Mining Patent Data", coauthored with Jeff Alstott and Chris Magee, published by Technological Forecasting and Social Change and freely available at https://www.sciencedirect.com/science/article/pii/S0040162520309264.
 
-Patent data used by the code is available at http://dx.doi.org/10.17632/f4fj887y67.1. Processed patent citation data is available at https://zenodo.org/record/3902550#.Xu-DlWhKiUk. Raw data from the USPTO is available at https://www.patentsview.org/download/.
+Patent data used by the code is available at http://dx.doi.org/10.17632/f4fj887y67.1. Processed patent citation data is available at https://zenodo.org/record/3902550#.Xu-DlWhKiUk. Raw data from the USPTO is available at https://www.patentsview.org/download/. The content of the data files as well as the methods used to create them are described in the article G. Triulzi, C.L. Magee, "Functional performance improvement data and patent sets for 30 technology domains with measurements of patent centrality and estimations of the improvement rate", published by Data in Brief, available at https://doi.org/10.1016/j.dib.2020.106257. If you use the data, please cite both articles. 
 
 <p>The code is structured as a series of Jupyter Notebooks, which use two datasets available on <a href="https://data.mendeley.com/datasets/f4fj887y67/1">Mendeley Data</a> and <a href="https://zenodo.org/record/3902550#.Xu-DlWhKiUk">Zenodo</a>.</p>
 <ul>
